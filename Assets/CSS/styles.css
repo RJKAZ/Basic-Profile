@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #f9EDED;
+    --light-grey: #D3D3D3;
+    --teal: teal;
+    --dark-grey: #696969;
+    --dark: #181B26;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../Images/blue-snow.png');
+}
+
+main{
+    box-sizing: content-box;
+    width: 960px;
+    padding: 5px;
+    margin: 0 auto;
+    background: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+header {
+    width: 100%;
+    background: white;
+    border-bottom:5px solid #4aaaa5;
+}
+
+.header-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+
+.header-wrapper h1 {
+    margin: auto;
+    background: #4aaaa5;
+    background-color: var(--teal);
+    padding: 20px 15px;
+    align-items: center;
+}
+
+.header-wrapper h1 a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.header-wrapper nav a {
+    color: var(--dark-grey);
+    padding: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border-right: 2px solid var(--light-grey)
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
+.bio-container {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+.flex-item {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid var(--dark-grey);
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../Images/surface.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item2 {
+    width: 45%;
+    border-radius: 14px;
+    border: 4px solid var(--dark-grey);
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-image: url('../Images/cintiq.jpg');
+    background-size: cover;
+    background-position: center;
+    padding:20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item span {
+    margin-top: auto;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.flex-item2 span {
+    margin-top: auto;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    line-height: 3;
+}
+
+.container-contact {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+
+
+
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    flex-shrink: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
